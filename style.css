@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* style  the header*/
+#header
+{
+	background-color: #f4511e;
+	height: 80px;
+	width: 100%;
+	position: relative;
+}
+
+#header ul
+{
+	padding: 20px 8px;
+	margin: 0px 80px;
+	padding-right:80px;
+	padding-top: 20px;
+	width: 80%;
+	height: 50%;
+
+}
+
+#header ul li
+{
+	list-style-type: none;
+	display: inline-block;
+	margin:0 6%;
+}
+
+#header ul li a
+{
+	
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	transition: 0.3s;
+}
+
+#header img
+{
+	position: absolute;
+	left: 0;
+	top:0;
+	width:10%;
+	height:100%;
+	padding-top: 1px;
+	padding-right: 3px;
+	
+}
+
+#header ul li a:hover{
+	 color:black;
+	 font-size:18px;
+
+
+}
