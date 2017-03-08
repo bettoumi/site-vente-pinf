@@ -49,12 +49,48 @@
 	height:100%;
 	padding-top: 1px;
 	padding-right: 3px;
+}
+
+#header ul li a:hover
+{
+	 color:black;
+	 font-size:18px;
+}
+
+/*style search section */
+
+#search
+{
+	width: 100%;
+	height:45px;
+	background-color: black;
+	text-align: center;
+	padding-top: 10px;
+}
+
+input[type=search]
+{
+	width:30%;
+	padding-bottom: 3px;
+	background-image: url(images/searchicone.svg);
+	background-position:right;
+	background-repeat: no-repeat;
 	
 }
 
-#header ul li a:hover{
-	 color:black;
-	 font-size:18px;
-
-
+#search img
+{
+	background-color: white;
+	width: 30px;
+	height: 20px;
+	float: right;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+span{
+	color: white;
+	float: right;
+	font-weight: bold;
+	font-size: 15px;
+	font-style: italic;
 }
