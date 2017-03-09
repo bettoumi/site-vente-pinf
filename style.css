@@ -87,10 +87,71 @@ input[type=search]
 	margin-left: 10px;
 	margin-right: 10px;
 }
-span{
+#search span{
 	color: white;
 	float: right;
 	font-weight: bold;
 	font-size: 15px;
 	font-style: italic;
 }
+
+/*style section products*/
+.articles
+{
+	clear: both;
+	width: 100%;
+	margin-top: 5px;
+	height: 400px;
+	
+}
+.fich-produit img
+{
+	height: auto;
+	width:150px;
+	padding-right:30px;
+	margin-bottom: 20px;
+
+}	
+.fich-produit
+{
+	display:inline-block;
+	border:2px solid transparent;
+	border-radius: 3px;
+
+	margin:0 auto;
+	width: 30%;
+	height: 300px;
+	margin-top: 20px;
+	margin-left:150px;
+
+}
+.fich-produit p
+{
+	font-size: 12px;
+}
+.ajout
+{
+	float:right;
+	background-color: black;
+	color: #f4511e;
+	padding:3px 3px;
+	font-style: italic;
+	font-size: 15px;
+}
+.titre
+{
+	font-style: italic;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: left;
+	text-decoration: underline;
+
+}
+.fich-produit a
+{
+	text-decoration: none;
+	color: #ffa400;
+	font-weight: bold;
+	font-size: 13px;
+}
+
