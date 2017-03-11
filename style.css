@@ -1,4 +1,5 @@
-*{
+*
+{
 	margin: 0;
 	padding: 0;
 }
@@ -37,7 +38,7 @@
 	color: white;
 	font-weight: bold;
 	font-size: 15px;
-	transition: 0.3s;
+	transition: 0.4s;
 }
 
 #header img
@@ -54,7 +55,7 @@
 #header ul li a:hover
 {
 	 color:black;
-	 font-size:18px;
+	 font-size:15px;
 }
 
 /*style search section */
@@ -119,7 +120,7 @@ input[type=search]
 	border-radius: 3px;
 
 	margin:0 auto;
-	width: 30%;
+	width: 32%;
 	height: 300px;
 	margin-top: 20px;
 	margin-left:150px;
@@ -153,5 +154,101 @@ input[type=search]
 	color: #ffa400;
 	font-weight: bold;
 	font-size: 13px;
+}
+
+/*style footer section*/
+footer
+{
+	height:50px;
+	width: 100%;
+	background-color: #f4511e;
+}
+footer p{
+	margin:10px auto;
+	text-align: center;
+	padding-top:10px;
+	font-size: 12px; 
+
+}
+footer p span{
+	color:white;
+	font-size: 12px;
+	font-weight: bold;
+
+}
+
+/*style presentation page*/
+
+.preprod
+{
+ width: 100%;
+ height:300px;
+ margin:100px 0px 150px 0px;
+
+}
+
+.preprod img
+{
+	height: auto;
+	width: 250px;
+	margin: 0 38%;
+}
+
+.preprod h2,p
+{
+   text-align: center;
+   font-style: italic;
+}
+
+.preprod span
+{
+  background-color: #f4511e;
+  padding: 5px 5px;
+}
+
+/*style presententreprise section*/
+
+#present-entreprise
+{
+	width: 100%;
+	height: 700px;
+}
+
+#present-entreprise h1
+{
+	text-align: center;
+	font-style: italic;
+	margin-top: 20px;
+}
+
+#present-entreprise img
+{
+	
+	height: auto;
+	margin:20px 30%;
+}
+
+#present-entreprise  p span
+{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#present-entreprise p
+{
+	text-align: left;
+	font-size: 17px;
+	font-style: italic;
+}
+
+/*style contact page*/
+#contact
+{
+  	background-color: black;
+	color: white;
+	width: 100%;
+	height: 200px;
+	margin-top: 20px;
+	padding-top: 20px;
 }
 
