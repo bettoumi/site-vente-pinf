@@ -224,8 +224,10 @@ footer p span{
 #present-entreprise img
 {
 	
-	height: auto;
+	height:auto;
 	margin:20px 30%;
+	border:2px solid black;
+	border-radius:10%;
 }
 
 #present-entreprise  p span
